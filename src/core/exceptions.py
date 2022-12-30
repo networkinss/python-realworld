@@ -75,3 +75,8 @@ class InvalidCredentialsException(HTTPException):
             detail="Incorrect username or password",
             headers={"WWW-Authenticate": "Token"},
         )
+
+
+class TaskNotFoundException(HTTPException):
+    def __init__(self) -> None:
+        super().__init__(status_code=status.HTTP_404_NOT_FOUND, detail="Task not found")

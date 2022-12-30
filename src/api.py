@@ -6,6 +6,7 @@ from endpoints.article import router as article_router
 from endpoints.comment import router as comment_router
 from endpoints.profile import router as profile_router
 from endpoints.tag import router as tag_router
+from endpoints.task import router as task_router
 from endpoints.user import router as user_router
 
 app = FastAPI()
@@ -30,6 +31,7 @@ app.include_router(article_router, tags=["article"])
 app.include_router(comment_router, tags=["article"])
 app.include_router(tag_router, tags=["tag"])
 app.include_router(profile_router, tags=["profile"])
+app.include_router(task_router, tags=["task"])
 
 if __name__ == "__main__":
     uvicorn.run(app)
