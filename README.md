@@ -28,7 +28,23 @@
 - [Install Docker](https://docs.docker.com/engine/install/) (necessary to run a local MongoDB instance)
 - Make sure Python 3.10 is available on your system
 - Install [poetry](https://poetry.eustace.io/)
+  ```
+  curl -sSL https://install.python-poetry.org | python3 -
+  ```
+- apt install python3.10-venv
+- Install pre-commit
+  ```
+  pip install pre-commit
+  ```
 - Setup the environment `./scripts/setup.sh`
+- Add PythonInterpreter Poetry in PyCharm project settings.
+
+### Setup IntelliJ
+
+- Choose FastAPI as server configuration.
+- Choose Poetry as Python interpreter
+- Mark src/ as source folder in project settings.
+- poetry add "pymongo[srv]"
 
 ### :bulb: Useful scripts
 

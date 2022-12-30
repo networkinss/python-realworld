@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="FastAPI" type="Python.FastAPI">
     <option name="file" value="$PROJECT_DIR$/src/api.py" />
-    <module name="flaskserver" />
+    <module name="python-realworld" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <option name="SDK_HOME" value="$USER_HOME$/.cache/pypoetry/virtualenvs/jubilant-winner-DDsvW7M4-py3.10/bin/python" />
