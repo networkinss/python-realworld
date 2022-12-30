@@ -17,7 +17,7 @@ Help us keep RealWorld open and inclusive. Please read and follow our [Code of C
 
 ## <a name="question"></a> Got a Question or Problem?
 
-Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests.  
+Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests.
 For open discussions, we encourage you to use the [Github Discussions][github-discussions] channels.
 
 ## <a name="issue"></a> Interested in creating Conduit for your framework?

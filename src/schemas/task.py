@@ -15,7 +15,7 @@ class Task(BaseSchema):
     postcheckfile: List[str] = Field(
         ..., example=["openapi.yaml"], title="postcheckfile"
     )
-    inputmustache: constr(min_length=3) = Field(
+    inputmustache: List[str] = Field(
         ..., example="anyfilepath.mustache", title="inputmustache"
     )
     replacemustache: str = Field(..., example=".go", title="replacemustache")

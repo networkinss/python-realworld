@@ -181,8 +181,7 @@ async def delete_task_by_obj(engine: AIOEngine, name: str):
 
 ```
 
-# add task file in model 
-
+# add task file in model
 
 Example:
 
@@ -206,6 +205,7 @@ class TaskModel(Model):
 ```
 
 # add new exeption class for task in core/exceptions.py file
+
 Example:
 
 ```
@@ -216,6 +216,5 @@ class TaskNotFoundException(HTTPException):
 ```
 
 # How to add a lib with poetry
-
 
 poetry add python-multipart

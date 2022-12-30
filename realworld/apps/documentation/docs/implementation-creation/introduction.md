@@ -8,7 +8,7 @@ sidebar_position: 1
 Discover our [live demo](https://demo.realworld.io).
 
 :::tip
-Check for [Discussions](https://github.com/gothinkster/realworld/discussions/categories/wip-implementations) about works in progress as we don't list duplicate projects.  
+Check for [Discussions](https://github.com/gothinkster/realworld/discussions/categories/wip-implementations) about works in progress as we don't list duplicate projects.
 An opportunity to collaborate might awaits you already.
 :::
 

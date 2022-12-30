@@ -4,8 +4,8 @@
     <module name="python-realworld" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
-    <option name="SDK_HOME" value="$USER_HOME$/.cache/pypoetry/virtualenvs/jubilant-winner-DDsvW7M4-py3.10/bin/python" />
-    <option name="SDK_NAME" value="Poetry (jubilant-winner)" />
+    <option name="SDK_HOME" value="$USER_HOME$/.cache/pypoetry/virtualenvs/fastapi-odmantic-example-4TjO2maH-py3.10/bin/python" />
+    <option name="SDK_NAME" value="Poetry (python-realworld)" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     <option name="IS_MODULE_SDK" value="false" />
     <option name="ADD_CONTENT_ROOTS" value="true" />

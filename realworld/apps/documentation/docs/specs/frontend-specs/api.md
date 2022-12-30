@@ -12,17 +12,17 @@ This project provides you different solutions to test your frontend implementati
 
 ## Run the official backend implementation locally
 
-The official backend implementation is open-sourced.  
-You can find the GitHub repository [here](https://github.com/gothinkster/node-express-prisma-v1-official-app).  
+The official backend implementation is open-sourced.
+You can find the GitHub repository [here](https://github.com/gothinkster/node-express-prisma-v1-official-app).
 The Readme will provide you guidances to start the server locally.
 
-:::info  
-We encourage you to use this implementation's **main** branch for local tests as the **limited** one includes [limitations](#api-limitations) aimed to protect public-hosted APIs.  
+:::info
+We encourage you to use this implementation's **main** branch for local tests as the **limited** one includes [limitations](#api-limitations) aimed to protect public-hosted APIs.
 :::
 
 ## Host your own API
 
-The official backend implementation includes a [**Deploy to Heroku** button](https://github.com/gothinkster/node-express-prisma-v1-official-app#deploy-to-heroku).  
+The official backend implementation includes a [**Deploy to Heroku** button](https://github.com/gothinkster/node-express-prisma-v1-official-app#deploy-to-heroku).
 This button provides you a quick and easy way to deploy the API on Heroku for your frontend implementation.
 
 :::caution
@@ -37,14 +37,14 @@ The **limited** branch will be more suitable if you plan to host your implementa
 
 ## Demo API
 
-This project provides you with a public hosted API to test your frontend implementations.  
+This project provides you with a public hosted API to test your frontend implementations.
 Point your API requests to `https://api.realworld.io/api` and you're good to go!
 
 ### API Usage
 
 The usage of the API is free and non-limited by any kind of key.
 
-The public API is currently hosted on a free plan project on Heroku.  
+The public API is currently hosted on a free plan project on Heroku.
 If the hosted API receives no traffic in 30 minutes, it will sleep. In such a situation, there will be an additional delay on the first request.
 
 Non-demo Articles, Tags, and Comments are deleted on a daily basis to avoid additional costs.
@@ -59,7 +59,7 @@ Most of the requests require a valid token.
 
 You can retrieve a token by logging in or by registering.
 
-Log in : https://api.realworld.io/api-docs/#/User%20and%20Authentication/Login  
+Log in : https://api.realworld.io/api-docs/#/User%20and%20Authentication/Login
 Register: https://api.realworld.io/api-docs/#/User%20and%20Authentication/CreateUser
 
 - Click the `Try it out` button

@@ -12,6 +12,7 @@ uvicorn = "^0.18.3"
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 odmantic = {git = "https://github.com/art049/odmantic.git"}
+pre-commit = "^2.21.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
